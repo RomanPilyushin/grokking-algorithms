@@ -18,10 +18,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="grokking-algorithms.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="01_binary_search.cpp">
+      <Filter>Source Files\01_introduction_to_algorithms</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\01_binary_search.cpp">
+    <ClCompile Include="01_binary_search_cpp11.cpp">
       <Filter>Source Files\01_introduction_to_algorithms</Filter>
     </ClCompile>
   </ItemGroup>

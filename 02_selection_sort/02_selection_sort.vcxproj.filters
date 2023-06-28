@@ -15,10 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_binary_search.cpp">
+    <Text Include="Makefile.txt">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="01_binary_search_cpp11.cpp">
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="02_selection_sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

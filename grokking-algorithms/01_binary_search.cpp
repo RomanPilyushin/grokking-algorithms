@@ -1,10 +1,12 @@
 #include "iostream"
 using namespace std;
 
-void binarySearch(int data_array[], int element, int len)
+void binarySearch(int data_array[], int element)
 {
+    int length = sizeof(data_array);
+
     int low = 0;
-    int high = len;
+    int high = length;
     while (low <= high)
     {
         int mid = (low + high)/2; 
@@ -30,11 +32,11 @@ void binarySearch(int data_array[], int element, int len)
 int main()
 {
     int data_array[] = {2,10,23,44,100,121};
-    int length = sizeof(data_array) / sizeof(int);
 
-    binarySearch(data_array, 3, length) ;  // not found case
-    binarySearch(data_array, 2, length) ; // found at corner case
-    binarySearch(data_array, 44, length) ; //found at middle case
+
+    binarySearch(data_array, 3) ;  // not found case
+    binarySearch(data_array, 2) ; // found at corner case
+    binarySearch(data_array, 44) ; //found at middle case
     return 0;
 }
 

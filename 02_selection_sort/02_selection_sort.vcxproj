@@ -19,16 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_binary_search.cpp" />
-    <ClCompile Include="01_binary_search_cpp11.cpp" />
+    <Text Include="Makefile.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="02_selection_sort.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2a203016-3668-4315-a035-dd5032146b98}</ProjectGuid>
-    <RootNamespace>grokkingalgorithms</RootNamespace>
+    <ProjectGuid>{66be679a-e8fa-4a4d-b5f3-4f397bb46120}</ProjectGuid>
+    <RootNamespace>My02selectionsort</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>01_introduction_to_algorithms</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

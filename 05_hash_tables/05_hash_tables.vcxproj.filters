@@ -15,19 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="04_recursive_max.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="03_recursive_count.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="02_recursive_sum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="01_loop_sum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="05_quicksort.cpp">
+    <ClCompile Include="05_hash_tables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

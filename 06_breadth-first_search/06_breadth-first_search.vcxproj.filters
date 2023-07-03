@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="06_breadth-first_search.cpp">
+    <ClCompile Include="01_breadth-first_search_cpp11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="02_graph.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
